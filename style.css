@@ -1,0 +1,67 @@
+body {
+    background-image: url('hola.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.invitation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.team img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.versus h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+p span {
+    font-weight: bold;
+}
+
+#confirmButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#confirmationMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
